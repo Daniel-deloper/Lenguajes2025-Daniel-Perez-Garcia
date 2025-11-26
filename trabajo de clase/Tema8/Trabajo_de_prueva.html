@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Presentación de los trabajos realizados</title>
+
+    <style>
+        /* ----- Estilos generales de la página ----- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 35px;
+            margin: 0;
+        }
+
+        header p {
+            margin-top: 5px;
+            font-size: 18px;
+        }
+
+        /* ----- Menú principal ----- */
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            background: #333;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #666;
+        }
+
+        /* ----- Secciones (apartados) ----- */
+        section {
+            padding: 40px;
+            background: white;
+            margin: 40px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        /* ----- Lista de ejercicios ----- */
+        .lista-ejercicios ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .lista-ejercicios li {
+            margin: 15px 0;
+        }
+
+        .lista-ejercicios a {
+            font-size: 20px;
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .lista-ejercicios a:hover {
+            color: #003366;
+        }
+
+        /* ----- Botón atrás ----- */
+        .btn-atras {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .btn-atras:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ----- ID principal para volver arriba ----- -->
+    <header id="inicio">
+        <h1>Presentación de trabajos</h1>
+        <p>Navega por los apartados y consulta todos los ejercicios realizados</p>
+    </header>
+
+    <!-- ----- Menú de navegación ----- -->
+    <nav>
+        <a href="#ejercicios">Ejercicios</a>
+        <a href="#documentacion">Documentación útil</a>
+        <a href="#pruebas">Pruebas prácticas</a>
+    </nav>
+
+    <!-- ----- Sección: Enlaces a los 8 ejercicios obligatorios ----- -->
+    <section id="ejercicios" class="lista-ejercicios">
+        <h2>Ejercicios realizados (8)</h2>
+        <p>Aquí tienes el acceso a todos los trabajos obligatorios:</p>
+
+        <ul>
+            <li><a href="ej1/index.html">Ejercicio 1 – Introducción HTML</a></li>
+            <li><a href="ej2/index.html">Ejercicio 2 – Tablas</a></li>
+            <li><a href="ej3/index.html">Ejercicio 3 – Formularios</a></li>
+            <li><a href="ej4/index.html">Ejercicio 4 – Listas</a></li>
+            <li><a href="ej5/index.html">Ejercicio 5 – CSS Básico</a></li>
+            <li><a href="ej6/index.html">Ejercicio 6 – Flexbox</a></li>
+            <li><a href="ej7/index.html">Ejercicio 7 – Grid</a></li>
+            <li><a href="ej8/index.html">Ejercicio 8 – Maquetación Web</a></li>
+        </ul>
+
+        <a class="btn-atras" href="#inicio">⬅ Volver arriba</a>
+    </section>
+
+    <!-- ----- Sección: Enlaces útiles ----- -->
+    <section id="documentacion">
+        <h2>Documentación y recursos útiles</h2>
+
+        <ul>
+            <li><a href="https://developer.mozilla.org/es/">MDN: Documentación HTML/CSS</a></li>
+            <li><a href="https://www.w3schools.com/">W3Schools: Ejemplos y guías</a></li>
+            <li><a href="https://cssgradient.io/">Generador de degradados CSS</a></li>
+        </ul>
+
+        <a class="btn-atras" href="#inicio">⬅ Volver arriba</a>
+    </section>
+
+    <!-- ----- Sección: Pruebas hechas en clase ----- -->
+    <section id="pruebas">
+        <h2>Pruebas realizadas en clase</h2>
+        <p>
+            Aquí puedes añadir enlaces a trabajos que no eran obligatorios
+            pero que hiciste durante las prácticas:
+        </p>
+
+        <ul>
+            <li><a href="prueba1/index.html">Prueba 1: Maquetación rápida</a></li>
+            <li><a href="prueba2/index.html">Prueba 2: Estilos CSS avanzados</a></li>
+        </ul>
+
+        <a class="btn-atras" href="#inicio">⬅ Volver arriba</a>
+    </section>
+
+</body>
+</html>
