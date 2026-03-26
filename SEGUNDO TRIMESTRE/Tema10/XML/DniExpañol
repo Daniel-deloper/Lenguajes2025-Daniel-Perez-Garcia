@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dni>
+    <numero>12345678Z</numero>
+    <nombre>Mario</nombre>
+    <apellidos>García López</apellidos>
+    <sexo>H</sexo>
+    <fechaNacimiento>1995-04-12</fechaNacimiento>
+    <nacionalidad>Española</nacionalidad>
+    <lugarNacimiento>Sevilla</lugarNacimiento>
+    <domicilio>
+        <direccion>Calle Mayor 15</direccion>
+        <codigoPostal>28013</codigoPostal>
+        <ciudad>Madrid</ciudad>
+        <provincia>Madrid</provincia>
+    </domicilio>
+    <equipoExpedicion>ESP</equipoExpedicion>
+    <fechaExpedicion>2020-06-10</fechaExpedicion>
+    <fechaCaducidad>2030-06-10</fechaCaducidad>
+    <soporte>IDESP123456</soporte>
+</dni>

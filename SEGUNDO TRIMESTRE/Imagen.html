@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Web de ejemplo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+        /* RESET BÁSICO */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* HEADER - FLEX */
+        header {
+            background-color: #222;
+            color: white;
+            padding: 1rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* MAIN - GRID */
+        main {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.5rem;
+            padding: 1.5rem;
+        }
+
+        article img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        aside {
+            background-color: #f4f4f4;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Mi Web</h1>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Galería</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Artículo principal</h2>
+            <p>
+                Esta es una web de ejemplo creada con HTML semántico y CSS moderno,
+                combinando Flexbox y Grid para el diseño.
+            </p>
+            <img src="https://picsum.photos/800/400" alt="Imagen de paisaje" />
+        </article>
+
+        <aside>
+            <h3>Información adicional</h3>
+            <p>
+                Aquí se puede incluir contenido secundario como enlaces, noticias o
+                información complementaria.
+            </p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Web de ejemplo</p>
+    </footer>
+</body>
+
+</html>

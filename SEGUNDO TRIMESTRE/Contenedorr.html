@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Flexbox</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #7589b4;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px 0;
+            box-sizing: border-box;
+        }
+        header {
+            width: 100%;
+            max-width: 1200px;
+            text-align: center;
+            background-color: #4a5f9e;
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        .contenedor {
+            border: 2px solid darkblue;
+            width: 500px;
+            gap: 10px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        
+        .caja {
+            display: flex;
+            align-items: center;
+            background-color: rgb(251, 48, 2);
+            color: white;
+            font-size: 3em;
+            font-weight: bold;
+            border-radius: 8px;
+            flex-basis: 40%;
+            flex-grow: 1;
+        }
+
+        .caja1 {
+            width: auto;
+            height: auto;
+            background-color:  rgb(156, 13, 196);
+            order: 3;
+        }
+
+        .caja2 {
+            width: auto;
+            height: auto;
+            order: 4;
+        }
+
+        .caja3 {
+            width: auto;
+            height: auto;
+            background-color: rgb(24, 126, 33);
+            order: 1;
+        }
+
+        .caja4 {
+            width: auto;
+            height: auto;
+            background-color: rgb(240, 236, 15);
+            order: 2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>Ejercicio de Clase - Daniel Pérez García</header>
+
+    <div class="contenedor">
+        <div class="caja caja1">1</div>
+        <div class="caja caja2">2</div>
+        <div class="caja caja3">3</div>
+        <div class="caja caja4">4</div>
+    </div>
+
+</body>
+
+</html>

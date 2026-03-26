@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumen de XML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #252525;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #007cc9;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section {
+            background-color: rgb(219, 219, 219);
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #fdba55;
+        }
+
+        h3{
+            color: black;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        a {
+            color: #61bff9;
+            text-decoration: none;
+        } 
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #007cc9;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Resumen de XML</h1>
+    <p>XML es un lenguaje de marcado diseñado para describir, estructurar y compartir datos entre distintos sistemas.</p>
+</header>
+
+<main>
+
+    <section>
+        <h2>¿Qué es XML?</h2>
+        <p>
+            XML (Extensible Markup Language) es un lenguaje de marcado de propósito general definido por el W3C.
+            Se utiliza para describir y compartir datos, no para mostrarlos.
+        </p>
+        <ul>
+            <li>Similar a HTML, pero no predefinido</li>
+            <li>Las etiquetas las define el programador</li>
+            <li>Muy usado en intercambio de información</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Características de XML</h2>
+        <ul>
+            <li>Lenguaje de estructura libre</li>
+            <li>Formato jerárquico en forma de árbol</li>
+            <li>Un único elemento raíz</li>
+            <li>Distingue mayúsculas y minúsculas</li>
+            <li>Los documentos pueden validarse</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Estructura de un Documento XML</h2>
+        <ul>
+            <li><strong>Prólogo</strong>: declaración XML, hojas de estilo y validación</li>
+            <li><strong>Cuerpo</strong>: elemento raíz y resto de elementos</li>
+            <li>Uso opcional de espacios de nombres (namespace)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Documento Bien Formado</h2>
+        <p>
+            Un documento XML bien formado cumple las reglas sintácticas del estándar XML.
+        </p>
+        <ul>
+            <li>Todas las etiquetas deben cerrarse</li>
+            <li>Los atributos van entre comillas</li>
+            <li>Un solo elemento raíz</li>
+            <li>Respeta mayúsculas y minúsculas</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Validación XML</h2>
+        <p>
+            Validar un XML consiste en comprobar que cumple una estructura definida.
+        </p>
+        <ul>
+            <li><strong>DTD</strong>: define elementos y atributos</li>
+            <li><strong>XSD</strong>: define tipos de datos y restricciones más precisas</li>
+        </ul>
+        <p>
+            Un XML puede estar bien formado pero no validado.
+        </p>
+    </section>
+
+    <section>
+        <h2>Namespace en XML</h2>
+        <p>
+            El espacio de nombres evita conflictos cuando se combinan elementos de distintos orígenes.
+        </p>
+        <ul>
+            <li>Se declara con <code>(xmlns)</code></li>
+            <li>No tiene que ser una URL real</li>
+            <li>Identifica de dónde viene cada elemento</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Parser XML</h2>
+        <p>
+            Un parser es el programa que lee un archivo XML y lo convierte en una estructura que puede procesar el ordenador.
+        </p>
+        <ul>
+            <li>Detecta errores de sintaxis</li>
+            <li>Permite trabajar con los datos</li>
+            <li>Ejemplos: navegador web, Visual Studio Code</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Aplicaciones Para Trabajar con XML</h2>
+        <ul>
+        <p>Existen distintas herramientas que facilitan la creación y validación de documentos XML.</p>
+        <p>Editor gratuito que permite crear, editar y validar archivos XML, detectando errores y comprobando su validez mediante esquemas.</p>
+        <h2>Se puede usar para XML mediante extensiones:</h2>
+        <li><a href="#"></a>XML Tools</li>
+        <li><a href="#"></a>XML de RedHat</li>
+        <p>Ayudan a escribir XML correctamente y ver errores</p>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p><h3> Daniel Pérez García — Trabajo de clase de Lenguajes de Marcas</h3></p>
+</footer>
+
+</body>
+</html>

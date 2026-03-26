@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item>
+        <nombre>Hamburguesa Completa</nombre>
+        <descripcion>Carne de vacuno, queso, lechuga y tomate</descripcion>
+        <precio>9.50</precio>
+        <categoria>Principal</categoria>
+    </item>
+
+    <item>
+        <nombre>Ensalada César</nombre>
+        <descripcion>Lechuga, pollo, queso parmesano y salsa césar</descripcion>
+        <precio>7.00</precio>
+        <categoria>Entrante</categoria>
+    </item>
+
+    <item>
+        <nombre>Tarta de Chocolate</nombre>
+        <descripcion>Tarta casera de chocolate negro</descripcion>
+        <precio>4.50</precio>
+        <categoria>Postre</categoria>
+    </item>
+</menu>

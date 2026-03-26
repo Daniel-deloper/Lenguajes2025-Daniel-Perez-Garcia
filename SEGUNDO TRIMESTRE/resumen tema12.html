@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tema 12 - XPath y Transformación XML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        a {
+            color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Tema 12: Conversión y Adaptación de Documentos XML</h1>
+    <p>XPath es un lenguaje que permite navegar, seleccionar y extraer información de documentos XML.</p>
+</header>
+
+<section>
+    <h2>¿Qué es XPath?</h2>
+    <p>XPath es un lenguaje utilizado para acceder a nodos dentro de documentos XML.</p>
+    <ul>
+        <li>Permite localizar elementos</li>
+        <li>Extraer datos</li>
+        <li>Realizar cálculos</li>
+        <li>Visualizar información</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Árbol XML</h2>
+    <p>Un documento XML se organiza como un árbol con distintos tipos de nodos:</p>
+    <ul>
+        <li>Nodo raíz (/)</li>
+        <li>Nodos elemento</li>
+        <li>Nodos atributo</li>
+        <li>Nodos de texto</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Sintaxis XPath</h2>
+    <p>Una expresión XPath se compone de:</p>
+    <ul>
+        <li><strong>Eje:</strong> Selección de elementos</li>
+        <li><strong>Predicado:</strong> Condiciones (entre corchetes)</li>
+        <li><strong>Selección:</strong> Resultado final</li>
+    </ul>
+    <p>Ejemplo:</p>
+    <code>/concesionario/coche[@matricula="1234ABC"]/marca</code>
+</section>
+
+<section>
+    <h2>Ejemplos XPath</h2>
+    <ul>
+        <li>Todos los coches: //coche</li>
+        <li>Coche número 2: //coche[2]</li>
+        <li>Matrículas: //coche/@matricula</li>
+        <li>Precio mayor a 20000: //coche[precio > 20000]</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Lenguajes relacionados</h2>
+    <ul>
+        <li><strong>XSLT:</strong> Transforma XML en HTML u otros formatos</li>
+        <li><strong>XSL-FO:</strong> Genera documentos como PDF</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Formatos de intercambio de datos</h2>
+    <ul>
+        <li><strong>XML:</strong> Estructurado y jerárquico</li>
+        <li><strong>JSON:</strong> Ligero y fácil de usar</li>
+        <li><strong>CSV:</strong> Datos en tabla separados por comas</li>
+        <li><strong>YAML:</strong> Basado en indentación, fácil de leer</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Enlaces útiles</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com/xml/xpath_intro.asp" target="_blank">XPath en W3Schools</a></li>
+        <li><a href="https://www.mclibre.org/consultar/xml/lecciones/xml-xpath.html" target="_blank">Tutorial XPath</a></li>
+    </ul>
+</section>
+
+<section>
+    <h2>Otros ejercicios</h2>
+    <ul>
+        <li>Ejercicio XML</li>
+        <li>Ejercicio JSON</li>
+        <li>Ejercicio CSV</li>
+    </ul>
+</section>
+
+<footer>
+    <p>Autor: Tu Nombre</p>
+    <p>Trabajo de clase - Lenguajes de Marcas</p>
+</footer>
+
+</body>
+</html>

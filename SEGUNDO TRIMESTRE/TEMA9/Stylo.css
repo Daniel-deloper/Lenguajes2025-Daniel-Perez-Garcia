@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    z-index: 10;
+    text-align: center;
+}
+
+.imagen-encima {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 250px;
+}
+
+.contenedor {
+    width: 100px;
+    height: 100vh;
+    position: relative;
+    background-image: url("imagin2.png");
+    background-size: cover;
+    background-position:auto;
+}
+
+
+.coche-fijo {
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+}
+
+
+.descripcion {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+
+
+.desktop {
+    display: block;
+}
+
+
+@media (max-width: 1200px) {
+    .contenedor {
+        background-image: url("imgin1.png");
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .contenedor {
+        background-image: url("imagin3.png");
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .small {
+        display: block;
+        font-size: 18px;
+    }
+}
+
